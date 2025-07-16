@@ -86,3 +86,5 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock \
     fastbootd
+
+include $(LOCAL_PATH)/orangefox.mk
