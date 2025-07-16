@@ -1,8 +1,8 @@
 # OrangeFox Maintainer Config for nabu
 
 # 必须的版本变量
-FOX_VERSION_MAJOR := R11.1
-FOX_MAINTAINER_PATCH_VERSION := 5
+FOX_VERSION_MAJOR := R11.3
+FOX_MAINTAINER_PATCH_VERSION := 1
 
 # 建议的 OrangeFox 配置
 OF_MAINTAINER := AviderMin
