@@ -21,15 +21,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.msmnile
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.msmnile \
-    libgptutils \
-    libz \
-    libcutils
-
 PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh \
     update_engine \
     update_verifier \
-    update_engine_sideload
+    update_engine_sideload \
+    bootctrl.msmnile \
+    libgptutils \
+    libz \
+    libcutils
